@@ -16,19 +16,18 @@ cd ai-running-coach
 ```
 2. Install required libraries
 
-Bash
+```Bash
 pip install google-genai requests rich
-
+```
 3. Configure API Keys
 Open run_mumbai.py in a text editor. Locate the API key variables near the top of the file and replace the placeholder text with your actual keys:
-
-Python
+```Python
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_KEY_HERE")
 WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "YOUR_WEATHER_KEY_HERE")
-
+```
 **Usage
 Run the script from your terminal:
 
-Bash
+```Bash
 python run_mumbai.py
 
